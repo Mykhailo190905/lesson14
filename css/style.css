@@ -80,8 +80,11 @@
 }
 
 .header,
-.section {
+.section, 
+.footer,
+.main{
   font-size: 0px;
+  max-width: 1200px;
 }
 
 .header {
@@ -237,18 +240,18 @@ nav a {
 }
 
 .right-side {
-  width: 500px;
+  max-width: 500px;
 }
 
 .left-side {
-  width: calc(100% - 500px);
+  max-width: calc(100% - 500px);
   padding-right: 90px;
 }
 
 .section {
-  height: 500px;
   margin-left: 40px;
   margin-top: 90px;
+  max-width: 1200px;
 }
 
 .shop {
@@ -259,6 +262,7 @@ nav a {
   border-radius: 6px;
   padding: 10px 20px;
   cursor: pointer;
+  margin-left: 20px;
 }
 
 .green-shop {
@@ -266,6 +270,7 @@ nav a {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  margin-left: 20px;
 }
 
 .green-shop-2 {
@@ -274,6 +279,7 @@ nav a {
   font-size: 48px;
   color: #333;
   margin: 10px 0;
+  margin-left: 20px;
 }
 
 .green-shop-3 {
@@ -281,6 +287,7 @@ nav a {
   font-size: 16px;
   color: #666;
   margin: 20px 0;
+  margin-left: 20px;
 }
 
 a {
@@ -338,6 +345,11 @@ a span.underline {
   justify-content: space-between;
 }
 
+.header-second{
+  max-width: 1200px;
+}
+
+
 .main-section-2 div {
   position: relative;
 }
@@ -382,7 +394,7 @@ img {
 
 .plant-card {
   position: relative;
-  width: 200px;
+  max-width: 200px;
   margin-left: 30px;
 }
 
@@ -450,6 +462,7 @@ display: flex;
 justify-content: center;
 gap: 28px;
 padding: 20px;
+max-width: 1200px;
 }
 
 .left-side-3, .right-side-3 {
@@ -631,6 +644,7 @@ card-image-third {
 .main-content {
   background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
   padding: 20px 0;
+  max-width: 1200px;
 }
 
 .main-container {
@@ -692,6 +706,7 @@ card-image-third {
 .footer-content {
   background-color: #F0F0F0;
   padding: 40px 0;
+  max-width: 1200px;
 }
 
 .footer-container {
